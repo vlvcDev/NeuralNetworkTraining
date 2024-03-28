@@ -161,3 +161,4 @@ plt.axis("off")
 plt.show()
 
 # remember the above for CAT project
+plt.show()
