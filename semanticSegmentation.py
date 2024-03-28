@@ -150,7 +150,7 @@ plt.imshow(np.squeeze(images[0]))
 
 plt.subplot(1, 3, 2)
 plt.title("Predictions for Class: Road", fontsize=14)
-plt.imshow(pred_mask[:, :, 0], cmap="gray") # Class 17 corresponds to the 'road' class
+plt.imshow(pred_mask[:, :, 17], cmap="gray") # Class 17 corresponds to the 'road' class
 plt.axis("off")
 
 plt.subplot(1, 3, 3)
@@ -161,4 +161,3 @@ plt.axis("off")
 plt.show()
 
 # remember the above for CAT project
-plt.show()

@@ -4,3 +4,6 @@ __MACOSX
 TF-Keras-Bootcamp-NB07-assets.zip
 images
 camvid_images.zip
+camvid_images
+object_detection_images.zip
+.DS_Store
